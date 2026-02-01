@@ -8,6 +8,7 @@ pip install -r requirements.txt
 pip install streamlit
 
 file structure:
+main.py
 checkmodel.py (not required)
 - interface.py
 - agent
