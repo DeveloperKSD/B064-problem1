@@ -1,6 +1,6 @@
 # SaaS Migration AI Assistant
 
-An AI-powered assistant designed to help with SaaS migration workflows. This project uses an agent-based architecture with memory, policies, and tools, and integrates with the Gemini API.
+An AI-powered assistant designed to help with SaaS migration workflows. This project uses an agentic AI memory, policies, and tools, and integrates with the Gemini API.
 
 ## Project Architecture
 
