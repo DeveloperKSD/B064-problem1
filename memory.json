@@ -1,0 +1,173 @@
+{
+  "resolved_issues": [
+    {
+      "ticket_id": "T-002",
+      "description": "Webhook for order.created not firing. Used to work before headless migration",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-003",
+      "description": "Product images not loading on storefront. API returns correct URLs but 403 forbidden",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-5377",
+      "description": "payment is done but its showing not done",
+      "root_cause": "api_misconfiguration",
+      "action": "Auto-fix API keys + notify merchant",
+      "result": {
+        "status": "completed",
+        "action": "Auto-fix API keys + notify merchant"
+      }
+    },
+    {
+      "ticket_id": "T-001",
+      "description": "Checkout button not working after migration. Getting 404 on /api/checkout endpoint",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "rejected_by_human"
+      }
+    },
+    {
+      "ticket_id": "T-002",
+      "description": "Webhook for order.created not firing. Used to work before headless migration",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-003",
+      "description": "Product images not loading on storefront. API returns correct URLs but 403 forbidden",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-9801",
+      "description": "\u001b[1;2D",
+      "root_cause": "api_misconfiguration",
+      "action": "Auto-fix API keys + notify merchant",
+      "result": {
+        "status": "completed",
+        "action": "Auto-fix API keys + notify merchant"
+      }
+    },
+    {
+      "ticket_id": "T-3132",
+      "description": "CHECKOUT ISNT WORKING THE LOADING THING KEEPS SPINNING AND IM LOSING 20 CUSTOMERS PER HOUR this problem has been going on since 10am pls hep me",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-002",
+      "description": "Webhook for order.created not firing. Used to work before headless migration",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-003",
+      "description": "Product images not loading on storefront. API returns correct URLs but 403 forbidden",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-3307",
+      "description": "checkout not working\ncustomers have complained about it loading forever and not responding\nhave lost 50 orders already\n",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-4636",
+      "description": "problems with checkout since morning, lost 50 orders today customers also had issues and have complained",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-4636",
+      "description": "problems with checkout since morning, lost 50 orders today customers also had issues and have complained",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-7012",
+      "description": "Not supporting preferred methods, digital wallets, ui not loaded properly making it difficult for customers \n",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-7551",
+      "description": "the checkout page isnt working, have lost 50 sales since the morning, what do i do ",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-002",
+      "description": "Webhook for order.created not firing. Used to work before headless migration",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    },
+    {
+      "ticket_id": "T-003",
+      "description": "Product images not loading on storefront. API returns correct URLs but 403 forbidden",
+      "root_cause": "migration_issue",
+      "action": "Rollback merchant to hosted mode",
+      "result": {
+        "status": "completed",
+        "action": "Rollback merchant to hosted mode"
+      }
+    }
+  ]
+}

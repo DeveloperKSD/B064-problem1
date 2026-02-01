@@ -1,0 +1,25 @@
+{
+  "tickets": [
+    {
+      "id": "T-001",
+      "merchant_id": "M-4521",
+      "description": "Checkout button not working after migration. Getting 404 on /api/checkout endpoint",
+      "severity": "critical",
+      "timestamp": "2025-01-31T10:30:00Z"
+    },
+    {
+      "id": "T-002",
+      "merchant_id": "M-7834",
+      "description": "Webhook for order.created not firing. Used to work before headless migration",
+      "severity": "high",
+      "timestamp": "2025-01-31T11:15:00Z"
+    },
+    {
+      "id": "T-003",
+      "merchant_id": "M-2198",
+      "description": "Product images not loading on storefront. API returns correct URLs but 403 forbidden",
+      "severity": "medium",
+      "timestamp": "2025-01-31T12:00:00Z"
+    }
+  ]
+}
