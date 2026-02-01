@@ -3,7 +3,7 @@
 add gemini api key to tools.py
 
 download all requirements:
-- pip install -r requirements.txt
+- pip install google-generativeai
 - pip install streamlit
 
 file structure:
