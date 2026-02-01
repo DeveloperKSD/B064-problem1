@@ -3,9 +3,8 @@
 add gemini api key to tools.py
 
 download all requirements:
-
-pip install -r requirements.txt
-pip install streamlit
+- pip install -r requirements.txt
+- pip install streamlit
 
 file structure:
 main.py
