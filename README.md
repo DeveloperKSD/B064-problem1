@@ -7,8 +7,7 @@ download all requirements:
 - pip install streamlit
 
 file structure:
-main.py
-checkmodel.py (not required)
+- main.py
 - interface.py
 - agent
   - agent.py
