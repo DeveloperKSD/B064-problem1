@@ -4,7 +4,7 @@ An AI-powered assistant designed to help with SaaS migration workflows. This pro
 
 ## Project Architecture
 
-```
+
 project/
 ├── main.py                # Entry point of the application
 ├── interface.py           # UI / interface logic
