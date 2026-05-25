@@ -1,4 +1,3 @@
-"""Main agent loop: Observe → Reason → Decide → Act"""
 import json
 from .tools import TicketAnalyzer, ActionExecutor
 from .memory import Memory
@@ -12,12 +11,10 @@ class SupportAgent:
         self.policies = PolicyEngine()
         
     def observe(self):
-        """Load tickets and system signals"""
         with open('data/tickets.json', 'r') as f:
             return json.load(f)['tickets']
     
     def reason(self, ticket):
-        """Use AI to identify root cause"""
         # Get similar past issues
         context = self.memory.get_similar_issues(ticket['description'])
         
@@ -26,7 +23,6 @@ class SupportAgent:
         return analysis
     
     def decide(self, ticket, analysis):
-        """Determine action based on policies"""
         decision = self.policies.get_action(
             root_cause=analysis['root_cause'],
             severity=ticket['severity'],
@@ -35,7 +31,6 @@ class SupportAgent:
         return decision
     
     def act(self, ticket, decision):
-        """Execute or queue action"""
         if decision['needs_human_approval']:
             print(f"⏸️  Ticket #{ticket['id']}: AWAITING HUMAN APPROVAL")
             return {"status": "pending_approval", "action": decision}
@@ -45,14 +40,13 @@ class SupportAgent:
         return result
     
     def run(self):
-        """Main agent loop"""
         tickets = self.observe()
         results = []
         
         for ticket in tickets:
             print(f"\n🔍 Processing Ticket #{ticket['id']}...")
             
-            # OBSERVE → REASON → DECIDE → ACT
+            # observer, reason, decide and then act
             analysis = self.reason(ticket)
             decision = self.decide(ticket, analysis)
             result = self.act(ticket, decision)
