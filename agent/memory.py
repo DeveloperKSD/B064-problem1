@@ -1,4 +1,5 @@
-"""Agent memory for learning from past issues"""
+#this is basically the past memory, which helps the agent to avoid running back to it
+#similar to dp
 import json
 import os
 
