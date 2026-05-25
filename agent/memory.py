@@ -16,8 +16,7 @@ class Memory:
             self.data = {"resolved_issues": []}
     
     def get_similar_issues(self, description):
-        """Retrieve similar past issues"""
-        # Simple keyword match (could use embeddings)
+
         similar = []
         keywords = description.lower().split()[:3]
         
